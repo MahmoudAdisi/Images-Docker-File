@@ -1,0 +1,6 @@
+FROM ubuntu
+WORKDIR newdockertest
+RUN echo "welcome to Docker Test Adisi" > docker.text 
+WORKDIR container 
+RUN echo "welcome to Docker Test Adisi" > Container.text
+MAINTAINER Mahmoud Adisi
