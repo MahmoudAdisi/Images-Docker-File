@@ -1,0 +1,4 @@
+#Create a Docker File Volume using a Docker file
+
+FROM centos
+VOLUME /dockerfilevolume 
