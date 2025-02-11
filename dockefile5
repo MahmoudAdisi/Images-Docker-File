@@ -1,0 +1,2 @@
+FROM alpine
+CMD [ "echo", " hello ahmed I am your custom image !" ]
